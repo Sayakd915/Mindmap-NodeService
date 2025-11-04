@@ -2,7 +2,7 @@ import os
 from google.cloud import firestore
 from app.config import GOOGLE_APPLICATION_CREDENTIALS
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = GOOGLE_APPLICATION_CREDENTIALS
+//os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = GOOGLE_APPLICATION_CREDENTIALS
 
 client = firestore.Client()
 
